@@ -1,0 +1,42 @@
+<div style="margin-top: 30px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Porcentaje Avence</div>
+                    <div class="panel-body text-center">
+                      30%
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Alertas</div>
+                    <div class="panel-body text-center">
+                        <span data-notify="icon" class="pe-7s-attention pe-lg"></span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Informaciones</div>
+                    <div class="panel-body text-center">
+                        <span data-notify="icon" class="pe-7s-bell"></span>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" #gatt></div>
+<div style="margin-top: 30px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <daypilot-scheduler [config]="config" [events]="events"></daypilot-scheduler>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>
